@@ -1,0 +1,6 @@
+pipeline { 
+  stages {
+    stage("checkout") {
+     steps {
+     cleanws()
+     git branch: 'master',credentialsId: 'sampjenkins' , 

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-24T07:45:19Z" name="com.test.jupiter.TestHomePage" finished-at="2022-10-24T07:46:02Z" duration-ms="43191">
+    <groups>
+      <group name="JupiterPage">
+        <method signature="TestHomePage.VerifyCart()[pri:3, instance:com.test.jupiter.TestHomePage@50de0926]" name="VerifyCart" class="com.test.jupiter.TestHomePage"/>
+        <method signature="TestHomePage.checkMandatoryFields()[pri:1, instance:com.test.jupiter.TestHomePage@50de0926]" name="checkMandatoryFields" class="com.test.jupiter.TestHomePage"/>
+        <method signature="TestHomePage.verifySubmission()[pri:2, instance:com.test.jupiter.TestHomePage@50de0926]" name="verifySubmission" class="com.test.jupiter.TestHomePage"/>
+      </group> <!-- JupiterPage -->
+    </groups>
+    <test started-at="2022-10-24T07:45:19Z" name="Command line test" finished-at="2022-10-24T07:46:02Z" duration-ms="43191">
+      <class name="com.test.jupiter.TestHomePage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.jupiter.TestHomePage@50de0926]" started-at="2022-10-24T13:15:19Z" name="setup" finished-at="2022-10-24T13:15:30Z" duration-ms="11226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkMandatoryFields()[pri:1, instance:com.test.jupiter.TestHomePage@50de0926]" started-at="2022-10-24T13:15:30Z" name="checkMandatoryFields" description="Validate Mandatory field Checks  " finished-at="2022-10-24T13:15:35Z" duration-ms="4462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMandatoryFields -->
+        <test-method signature="verifySubmission()[pri:2, instance:com.test.jupiter.TestHomePage@50de0926]" started-at="2022-10-24T13:15:35Z" name="verifySubmission" description="Validate Submission with Madatory fields " finished-at="2022-10-24T13:15:54Z" duration-ms="19312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubmission -->
+        <test-method signature="VerifyCart()[pri:3, instance:com.test.jupiter.TestHomePage@50de0926]" started-at="2022-10-24T13:15:54Z" name="VerifyCart" description="Validate Shopping Cart " finished-at="2022-10-24T13:16:02Z" duration-ms="7414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.jupiter.TestHomePage@50de0926]" started-at="2022-10-24T13:16:02Z" name="tearDown" finished-at="2022-10-24T13:16:02Z" duration-ms="756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.jupiter.TestHomePage -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.test.jupiter.TestHomePage -->
+</testng-results>
