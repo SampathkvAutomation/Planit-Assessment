@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-24T07:17:07Z" name="com.test.jupiter.TestHomePage" finished-at="2022-10-24T07:17:31Z" duration-ms="23283">
+    <groups>
+      <group name="JupiterPage">
+        <method signature="TestHomePage.checkMandatoryFields()[pri:1, instance:com.test.jupiter.TestHomePage@5e955596]" name="checkMandatoryFields" class="com.test.jupiter.TestHomePage"/>
+        <method signature="TestHomePage.verifySubmission()[pri:2, instance:com.test.jupiter.TestHomePage@5e955596]" name="verifySubmission" class="com.test.jupiter.TestHomePage"/>
+      </group> <!-- JupiterPage -->
+    </groups>
+    <test started-at="2022-10-24T07:17:07Z" name="Command line test" finished-at="2022-10-24T07:17:31Z" duration-ms="23283">
+      <class name="com.test.jupiter.TestHomePage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.jupiter.TestHomePage@5e955596]" started-at="2022-10-24T12:47:07Z" name="setup" finished-at="2022-10-24T12:47:17Z" duration-ms="9473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkMandatoryFields()[pri:1, instance:com.test.jupiter.TestHomePage@5e955596]" started-at="2022-10-24T12:47:17Z" name="checkMandatoryFields" description="Validate Mandatory field Checks  " finished-at="2022-10-24T12:47:22Z" duration-ms="5021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMandatoryFields -->
+        <test-method signature="verifySubmission()[pri:2, instance:com.test.jupiter.TestHomePage@5e955596]" started-at="2022-10-24T12:47:22Z" name="verifySubmission" description="Validate Submission with Madatory fields " finished-at="2022-10-24T12:47:30Z" duration-ms="7939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubmission -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.jupiter.TestHomePage@5e955596]" started-at="2022-10-24T12:47:30Z" name="tearDown" finished-at="2022-10-24T12:47:31Z" duration-ms="827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.jupiter.TestHomePage -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.test.jupiter.TestHomePage -->
+</testng-results>
