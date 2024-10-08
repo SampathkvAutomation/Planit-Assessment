@@ -23,7 +23,8 @@ public class WebCapabilities
 	{
 		
   String path = System.getProperty("user.dir")+File.separator+PropertiesLoader.getChromeDriver();
-	System.setProperty("webdriver.chrome.driver",path);
+
+  System.setProperty("webdriver.chrome.driver",path);
 	 driver = new ChromeDriver();
 	 PageFactory.initElements(driver, this);
 					 
